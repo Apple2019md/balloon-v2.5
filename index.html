@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        // ...
+
+        apiKey: "AIzaSyA625DmHHUbuUFeEqvfk0RoVqJB6eZ1Z7A",
+        authDomain: "airballoon-edab3.firebaseapp.com",
+        databaseURL: "https://airballoon-edab3-default-rtdb.firebaseio.com",
+        projectId: "airballoon-edab3",
+        storageBucket: "airballoon-edab3.appspot.com",
+        messagingSenderId: "145944065104",
+        appId: "1:145944065104:web:82d6843979151a5b018d55",
+        measurementId: "G-L4NS6JJZ9L",
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
